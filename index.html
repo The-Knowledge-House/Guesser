@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <script src="Guesser.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Letter Guess</title>
+    <link
+      rel="shortcut icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/a/a3/Light_bulb_%28yellow%29_icon.svg"
+    />
+    <link
+      <link
+      href="https://fonts.googleapis.com/css2?family=Mystery+Quest&family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1>
+      Letter<span
+        ><img
+          src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Light_bulb_%28yellow%29_icon.svg"
+          class="bulb" /></span
+      >Guess
+    </h1>
+    <main>
+      <div id="gameStart" class="guesserStart">
+        <h3>Want to play?</h3>
+        <button class="button" id="startButton" onclick="letterGuesser()">Begin</button>
+        <p class="result"></p>
+    </main>
+
+    <script src="Guesser.js"></script>
+  </body>
 </html>
